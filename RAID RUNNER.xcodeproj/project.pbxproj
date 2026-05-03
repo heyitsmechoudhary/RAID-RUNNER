@@ -10,9 +10,22 @@
 		4B9FFAE32FA74614008DF0D8 /* RAID RUNNER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAID RUNNER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4B9FFB002FA74AED008DF0D8 /* Exceptions for "RAID RUNNER" folder in "RAID RUNNER" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"RAID-RUNNER-Info.plist",
+			);
+			target = 4B9FFAE22FA74614008DF0D8 /* RAID RUNNER */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4B9FFAE52FA74614008DF0D8 /* RAID RUNNER */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4B9FFB002FA74AED008DF0D8 /* Exceptions for "RAID RUNNER" folder in "RAID RUNNER" target */,
+			);
 			path = "RAID RUNNER";
 			sourceTree = "<group>";
 		};
@@ -251,8 +264,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D73J446VQ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RAID-RUNNER-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "RaidRunner needs background location to keep capturing tiles while your phone is locked during a run.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "RaidRunner uses your location to track your runs and capture territory tiles on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,8 +299,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D73J446VQ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RAID-RUNNER-Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "RaidRunner needs background location to keep capturing tiles while your phone is locked during a run.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "RaidRunner uses your location to track your runs and capture territory tiles on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
